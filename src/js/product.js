@@ -9,5 +9,4 @@ let showProduct = (e) => {
     updateState(`/goods?value=${value}`);
     updatedContent()
 }
-
 btn.addEventListener('click', showProduct)
